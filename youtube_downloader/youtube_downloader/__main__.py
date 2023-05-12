@@ -105,7 +105,7 @@ def download_youtube_media(urls: list[str], out_path: str = DOWNLOAD_FOLDER, aud
 #     "--end_time", "415.5"
 #     # "--help"
 # ] 
-# debug = None
+debug = None
 
 def main(args=None):
     arg_dict = parse_args(args)
