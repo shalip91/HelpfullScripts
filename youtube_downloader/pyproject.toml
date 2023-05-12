@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtubeDownloader"
+version = "1.0.0.0"
+
+[tool.setuptools]
+py-modules = ["youtube_downloader"]
+
+[project.scripts]
+youtubeDownloader = "youtube_downloader.__main__:main"
